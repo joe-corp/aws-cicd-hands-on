@@ -8,6 +8,7 @@ phases:
   install:
     commands:
       - echo "entered the installed phase"
+      
   pre_build:
     commands:
       - echo "entered the Pre-build Phase"
