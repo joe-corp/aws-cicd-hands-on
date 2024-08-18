@@ -6,7 +6,7 @@ env:
 
 phases:
   install:
-    runtime-version:
+    runtime-versions:
       nodejs: latest
     commands:
       - echo "entered the installed phase"
