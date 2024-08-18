@@ -1,0 +1,24 @@
+version: 0.2
+
+env:
+  variables:
+    COUNT: 3
+
+phases:
+  install:
+    runtime-version:
+      nodejs: latest
+    commands:
+      - echo "entered the installed phase"
+  pre-build:
+    commands:
+      - echo "entered the Pre-build Phase"
+      - echo "Settings"
+  build:
+    commands:
+      - echo "Hello World"
+      - echo "In your mind now, you are building the application"
+  post-build:
+    commands:
+      - echo "entered the post-Build phase"
+      - echo "we are done here. lol "
