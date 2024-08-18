@@ -15,6 +15,7 @@ phases:
       - echo "Settings"
       - echo "Action Firm"
       - echo "RUnning Test"
+      
   build:
     commands:
       - echo "Hello World"
