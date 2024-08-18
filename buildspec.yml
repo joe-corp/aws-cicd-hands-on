@@ -14,6 +14,7 @@ phases:
     commands:
       - echo "entered the Pre-build Phase"
       - echo "Settings"
+      - echo "Action Firm"
   build:
     commands:
       - echo "Hello World"
