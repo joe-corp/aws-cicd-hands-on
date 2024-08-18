@@ -6,8 +6,6 @@ env:
 
 phases:
   install:
-    runtime-versions:
-      nodejs: latest
     commands:
       - echo "entered the installed phase"
   pre_build:
@@ -15,6 +13,7 @@ phases:
       - echo "entered the Pre-build Phase"
       - echo "Settings"
       - echo "Action Firm"
+      - echo "RUnning Test"
   build:
     commands:
       - echo "Hello World"
