@@ -10,7 +10,7 @@ phases:
       nodejs: latest
     commands:
       - echo "entered the installed phase"
-  pre-build:
+  pre_build:
     commands:
       - echo "entered the Pre-build Phase"
       - echo "Settings"
@@ -18,7 +18,7 @@ phases:
     commands:
       - echo "Hello World"
       - echo "In your mind now, you are building the application"
-  post-build:
+  post_build:
     commands:
       - echo "entered the post-Build phase"
       - echo "we are done here. lol "
